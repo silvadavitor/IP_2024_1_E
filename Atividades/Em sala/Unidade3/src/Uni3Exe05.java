@@ -4,7 +4,7 @@ public class Uni3Exe05{
        Scanner scanner = new Scanner(System.in);
 
        System.out.print("Quantidade de frangos: ");
-       double frangos = scanner.nextDouble();
+       int frangos = scanner.nextInt();
        
        // Custo de 1 frango
        double custo = (4.00 + (2 * 3.50));
