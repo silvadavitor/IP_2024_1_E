@@ -13,7 +13,7 @@ public class Uni4Exe07 {
 
             pCarta = pCarta - 50;
             double qntAdd = (pCarta/20) + 1;
-            valor = 0.45+ 0.45*qntAdd;
+            valor = 0.45 + 0.45 * qntAdd;
 
             System.out.println("Custo selo R$ " + valor);
         }
