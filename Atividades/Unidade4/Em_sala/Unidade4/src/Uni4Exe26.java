@@ -29,6 +29,7 @@ public class Uni4Exe26 {
 
                 calculo = lado * lado;
                 System.out.println("Resultado: " + calculo);
+                break;
 
             case 'R':
                 System.out.println("Digite a base do retangulo: ");

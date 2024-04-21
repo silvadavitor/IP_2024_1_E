@@ -21,7 +21,7 @@ public class Uni4Exe22 {
                 System.out.println("Bacharel em Sistemas de Informação");
                 break;
             default:
-                System.out.println("Faz nada");
+                System.out.println("Opção Inválida");
                 break;
         }        
 

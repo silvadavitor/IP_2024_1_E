@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Uni4Exe27Otimizando {
+public class Uni4Exe27 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -9,7 +9,6 @@ public class Uni4Exe27Otimizando {
         int hChegada = scanner.nextInt();
         int mChegada = scanner.nextInt();
         
-
         System.out.println("Horário de chegada: ");
         int hSaida = scanner.nextInt();
         int mSaida = scanner.nextInt();
@@ -27,44 +26,44 @@ public class Uni4Exe27Otimizando {
             System.out.println("Horas inválidas");
         }
         else{
+
             if (minPerma < 30 || minPerma < 90){
                 valor = 5;
-                System.out.println(valor);
-                System.out.println("Você ficou " + minPerma / 60 + "hora(s) e " + minPerma % 60 + "minuto(s)"  );
+                System.out.println("Você vai pagar R$ " + valor + " por ter ficado " + minPerma / 60 + " hora(s) e " + minPerma % 60 + " minuto(s) no estacionamento."  );
             }
+
             else if (minPerma >= 90 && minPerma < 150) {
                 valor = 10;
-                System.out.println(valor);
-                System.out.println("Você ficou " + minPerma / 60 + "hora(s) e " + minPerma % 60 + "minuto(s)"  );
-
+                System.out.println("Você vai pagar R$ " + valor + " por ter ficado " + minPerma / 60 + " hora(s) e " + minPerma % 60 + " minuto(s) no estacionamento."  );
             }
+
             else if (minPerma >= 150 && minPerma < 210) {
                 valor = 22.50;
-                System.out.println(valor); 
-                System.out.println("Você ficou " + minPerma / 60 + "hora(s) e " + minPerma % 60 + "minuto(s)"  );
+                System.out.println("Você vai pagar R$ " + valor + " por ter ficado " + minPerma / 60 + " hora(s) e " + minPerma % 60 + " minuto(s) no estacionamento."  );
             }
-            else if (minPerma >= 210 && minPerma < 300) {
+
+            else if (minPerma >= 210 && minPerma < 270) {
                 valor = 40;
-                System.out.println(valor);
-                System.out.println("Você ficou " + minPerma / 60 + "hora(s) e " + minPerma % 60 + "minuto(s)"  );
+                System.out.println("Você vai pagar R$ " + valor + " por ter ficado " + minPerma / 60 + " hora(s) e " + minPerma % 60 + " minuto(s) no estacionamento."  );
             }
-            else if (minPerma >= 300) {
+
+            else if (minPerma >= 270) {
                 int horas = minPerma/60;
                 int minutos = minPerma % 60;  
                 if (minutos >= 30 ) {
                     horas = horas + 1;
                     valor = horas * 10;
 
-                    System.out.println(valor);
-                    System.out.println("Você ficou " + minPerma / 60 + "hora(s) e " + minPerma % 60 + "minuto(s)"  );
+                    System.out.println("Você vai pagar R$ " + valor + " por ter ficado " + minPerma / 60 + " hora(s) e " + minPerma % 60 + " minuto(s) no estacionamento."  );
 
                 }
+
                 else{
                     valor = horas * 10;
-                    System.out.println(valor);
-                    System.out.println("Você ficou " + minPerma / 60 + "hora(s) e " + minPerma % 60 + "minuto(s)"  );
+                    System.out.println("Você vai pagar R$ " + valor + " por ter ficado " + minPerma / 60 + " hora(s) e " + minPerma % 60 + " minuto(s) no estacionamento."  );
                 }
             }
+
             else{
                 System.out.println("ERROR");
             }
