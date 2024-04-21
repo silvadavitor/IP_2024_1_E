@@ -22,7 +22,6 @@ Faça o seu trabalho, cópias receberão nota zero. O professor pode a qualquer 
 [AVA3] Sistema para avaliações, imenta e conteudo de aula, disponibilizado pela furb
 
 
-## [Unidade2](./Atividades/Unidade2 "Unidade2")
 
 ## [Unidade3](./Atividades/Unidade3 "Unidade3")
 
