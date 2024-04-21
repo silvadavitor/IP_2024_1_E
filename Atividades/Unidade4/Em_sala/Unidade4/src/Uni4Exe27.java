@@ -9,7 +9,7 @@ public class Uni4Exe27 {
         int hChegada = scanner.nextInt();
         int mChegada = scanner.nextInt();
         
-        System.out.println("Horário de chegada: ");
+        System.out.println("Horário de saída: ");
         int hSaida = scanner.nextInt();
         int mSaida = scanner.nextInt();
 
