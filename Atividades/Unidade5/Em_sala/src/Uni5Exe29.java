@@ -2,15 +2,10 @@ import java.util.Scanner;
 public class Uni5Exe29 {
     public static void main(String[] args){
 
-        Scanner scanner = new Scanner(System.in);
-        
-        
-        
+        Scanner scanner = new Scanner(System.in);  
      
         char opc = 's';
-       
-        
-        
+    
         while (opc == 's') {
             System.out.println("Qual o valor?");
             int valor = scanner.nextInt();
